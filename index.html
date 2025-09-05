@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Research</a></li>
+          <li><a href="#experience">Awards</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Varshitha M</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <!-- <div class="section__pic-container">
+        <img src="./assets/about-pic.jpg" alt="Varshitha Manjunath profile picture" />
+      </div> -->
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Varshitha Manjunath</h1>
+        <p class="section__text__p2">Assistant Professor | Co-Director @TechWalk Boston</p>
+        
+        <div class="divider"></div>
+        <div class="btn-container">
+          <!-- <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button> -->
+          
+          <button class="btn btn-color-1" onclick="location.href='https://youtube.com/shorts/P0Blr1-ZbQ0?si=hrNT8m7uj5iTTFCn'" >
+            Cyber Program Lead
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/varshitham/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/varshithamanasa'"
+          />
+        </div>
+      </div>
+    </section>
+   
+
+
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+ years <br />Teaching</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E. Computer Science<br /> Dual M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <style>
+              .text-container {
+                text-align: right;
+              }
+              .text-container p {
+                text-align: justify;
+              }
+              
+            </style>
+            <p>
+            I am an Assistant Professor of Cybersecurity and Coordinator of Cyber Security at Lasell University, driven by a passion to empower and inspire future technology leaders. With a strong foundation in computer science and cybersecurity, I create innovative curricula, lead transformative research, and mentor students to unlock their full potential in advanced security practices. My expertise spans threat analysis and building collaborative learning environments that foster curiosity, resilience, and excellence. I am dedicated to bridging academia and industry, championing cybersecurity education, and motivating the next generation to make a meaningful impact.
+
+            As a Women in Security and Privacy advocate and WiCyS Faculty Advisor, I am committed to advancing diversity and inclusion in technology, supporting women and underrepresented groups to thrive in cybersecurity. Beyond technology, I advocate for mental health and wellness, and as a certified yoga instructor, I encourage holistic growth and well-being in every journey.
+            </p>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+   
+    <section id="experience"></section>
+      <p class="section__text__p1">Achievements & Research</p>
+      <h1 class="title">Awards & Publications</h1>
+      <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+        <h2 class="experience-sub-title">Publications & Service</h2>
+        <ul>
+          <style>
+            ul {
+              text-align: left;
+              list-style-type: none;
+              padding: 0;
+              
+            }
+          </style>
+          <li>
+          <strong>Detection of Brain Tumor from MRI Images and Predicting the Best Therapy</strong><br>
+          National Conference on Emerging Technologies in Engineering, 2020
+          </li>
+          <li>
+          <strong>Ongoing Research:</strong> Blockchain Applications in Cybersecurity
+          </li>
+          <li>
+          <strong>Reviewer</strong> First International Conference on Data, Computation and Communication(ICDCC 2024)<br>
+          </li>
+
+          <li>
+          <strong>Technical Reviewer:</strong> First International Conference on Computational Intelligence and Data Communication (ICCIDC 2025)
+          </li>
+          <li>
+          <strong>Program Committee Member & Reviewer:</strong> 4th IEEE World Conference on Applied Intelligence and Computing (AIC 2025), The Institution of Electronics and Telecommunication Engineers (IETE)
+          </li>
+          <li>
+          <strong>Reviewer:</strong> 9th International Conference on Man-Machine Systems (ICoMMS 2025), Faculty of Electrical Engineering and Technology, University Malaysia Perlis
+          </li>
+
+          <li>
+            <Strong> IEEE Ambassdor Boston Section Region 4, 2025</Strong>
+          </li>
+        </ul>
+        </div>
+        <div class="details-container">
+        <h2 class="experience-sub-title">Awards & Grants</h2>
+        <ul>
+          <li>
+          <strong>Winner:</strong> Business Simulation Competition by MAPFRE Group on Management and Decision-Making in Insurance Companies, 2022
+          </li>
+          <li>
+          <strong>Dr. Laura Myers Community Service Award</strong>, 2024<br>
+          For significant contributions to the local community through time, actions, talents, and dedication. This award recognizes individuals who have made a positive impact and demonstrated a commitment to service.
+          <li>
+          <strong>Connected Learning Grant</strong>, 2025<br>
+          Awarded to support innovative initiatives that enhance student engagement and foster collaborative learning experiences. The grant aims to strengthen connected learning opportunities and promote interdisciplinary approaches to education.
+          </li>
+          <li>
+          <strong>Academic Leadership Award</strong> (Soft Computing Research Society–Washington University of Science and Technology Global Excellence Awards, 2025)<br>
+          For visionary leadership in academia.
+          </li>
+        </ul>
+        </div>
+      </div>
+      </div>
+      <!-- <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+      /> -->
+    </section>
+    <!-- <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Academic Experience</h1>
+      <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+        <h2 class="experience-sub-title">Teaching & Mentoring</h2>
+        <div class="article-container">
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Cybersecurity</h3>
+            <p>Assistant Professor, Lasell University</p>
+          </div>
+          </article>
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Curriculum Design</h3>
+            <p>Coordinator, Cyber Security Program</p>
+          </div>
+          </article>
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Student Mentoring</h3>
+            <p>Research & Career Guidance</p>
+          </div>
+          </article>
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Yoga & Wellness</h3>
+            <p>Stress-relief Yoga Instructor</p>
+          </div>
+          </article>
+        </div>
+        </div>
+        <div class="details-container">
+        <h2 class="experience-sub-title">Awards & Grants</h2>
+        <div class="article-container">
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Cybersecurity Research</h3>
+            <p>Threat Analysis & Security Practices</p>
+          </div>
+          </article>
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Community Service</h3>
+            <p>Dr. Laura Myers Community Service Award 2024</p>
+          </div>
+          </article>
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Industry Collaboration</h3>
+            <p>Co-Director @TechWalk Boston</p>
+          </div>
+          </article>
+          <article>
+          <img
+            src="./assets/checkmark.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <div>
+            <h3>Inclusive Education</h3>
+            <p>Building Collaborative Learning Environments</p>
+          </div>
+          </article>
+        </div>
+        </div>
+      </div>
+      </div> -->
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      /> -->
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/mario.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AI Super Mario Game</h2>
+            <div class="btn-container">
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://varshithamanjunath.github.io/AI_Mario_Game/'"
+              >
+                Github
+              </button> -->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://varshithamanjunath.github.io/AI_Mario_Game/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/dj.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AI DJ App</h2>
+            <div class="btn-container">
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://varshithamanasa.github.io/Ai-DJ/'"
+              >
+                Github
+              </button> -->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://varshithamanasa.github.io/Ai-DJ/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/mask.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Mask-Identification</h2>
+            <div class="btn-container">
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://varshithamanjunath.github.io/Mask-Identification/'"
+              >
+                Github
+              </button> -->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://varshithamanjunath.github.io/Mask-Identification/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">varshithamanjunath@acm.org</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/varshitham/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <li><a href="https://youtube.com/shorts/P0Blr1-ZbQ0?si=hrNT8m7uj5iTTFCn" >Cyber Program lead</a></li> -->
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Varshitha Manjunath. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
